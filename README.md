@@ -30,15 +30,17 @@ This project simplifies the development process in C by automating the managemen
    ```c
     #ifndef PROTOTYPE_H // change to your header
     # define PROTOTYPE_H // change to your header
-    # include <stddef.h>
+    # include <stddef.h> // add libraries as you like
 
     //prototypes -> dont touch here script will automatically fill this place
 
     #endif
    ```
 - **How It Works**:
-    It modifies your Makefile based on your source files. if you add or remove a source file, Makefile will automatically be updated.
-    Not just that! It creates a header file (can modify the name in Makefile, HEADER variable) and place all your functions in header (excluding main and static functions).
+    It modifies your Makefile based on your source files.
+    If you add or remove a source file, Makefile will automatically be updated.
+    Not just that! It creates a header file (can modify the name in Makefile, HEADER variable).
+    Place all your functions in header (excluding main and static functions).
 
 - **Building the Project**: Simply run the Makefile to compile the project:
    ```bash

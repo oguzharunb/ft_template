@@ -2,6 +2,6 @@
 # define PROTOTYPE_H // change to your header
 # include <stddef.h>
 
-//prototypes
+//prototypes -> dont touch here, script will automatically fill this place
 
 #endif

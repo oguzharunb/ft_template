@@ -12,14 +12,6 @@ This project simplifies the development process in C by automating the managemen
 
 ## Getting Started
 
-### Prerequisites
-
-Make sure you have the following installed on your system:
-
-- `make`
-- `C Compiler` (Example: GCC)
-- `A shell` (Example: bash, zsh)
-
 ### Installation
 
 1. **Clone the Repository**: Clone the repository to your local machine.

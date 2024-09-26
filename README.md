@@ -1,4 +1,4 @@
-# Automated Function Prototype Manager
+# A Template For All C Projects of 42
 
 ## Overview
 

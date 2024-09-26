@@ -87,8 +87,3 @@ This project is licensed under the Apache License. See the LICENSE file for more
 ## Contributing
 
 Contributions are welcome! Please feel free to open issues or submit pull requests.
-
-## Acknowledgments
-
-- Inspired by various open-source projects that facilitate C programming.
-- Special thanks to oguzharunb for the original template.

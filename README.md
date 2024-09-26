@@ -16,16 +16,16 @@ This project simplifies the development process in C by automating the managemen
 
 Make sure you have the following installed on your system:
 
-- `Automake`
-- `GCC` (GNU Compiler Collection)
-- `bash`
+- `make`
+- `C Compiler` (Example: GCC)
+- `A shell` (Example: bash, zsh)
 
 ### Installation
 
 1. **Clone the Repository**: Clone the repository to your local machine.
    ```bash
-   git clone <repository-url>
-   cd <repository-name>
+   git clone https://github.com/oguzharunb/ft_template
+   cd ft_template
    ```
 
 2. **Set Up the Project**: Create your source files in the `srcs` directory and prepare your header file `header.h`.
@@ -33,11 +33,6 @@ Make sure you have the following installed on your system:
 3. **Run the Scripts**: Use the provided scripts to manage prototypes and compile your program.
 
 ### Usage
-
-- **Generating Prototypes**: Use the `set_prototypes.sh` script to extract function prototypes from your source files and update the header file:
-   ```bash
-   ./set_prototypes.sh header.h srcs/*.c
-   ```
 
 - **Building the Project**: Simply run the Makefile to compile the project:
    ```bash
@@ -79,7 +74,7 @@ int example_function(int param);
 
 ## License
 
-This project is licensed under the MIT License. See the LICENSE file for more details.
+This project is licensed under the Apache License. See the LICENSE file for more details.
 
 ## Contributing
 

@@ -28,11 +28,25 @@ Make sure you have the following installed on your system:
    cd ft_template
    ```
 
-2. **Set Up the Project**: Create your source files in the `srcs` directory and prepare your header file `header.h`.
+2. **Set Up the Project**: Create your source files in the `srcs` directory and prepare your header file `prototype.h`.
 
-3. **Run the Scripts**: Use the provided scripts to manage prototypes and compile your program.
+3. **Set Up the Makefile**: Change NAME to your programs name, change HEADER to your headers name.
 
 ### Usage
+
+- **Setting prototype.h**: just enter the libraries like stdio.h or unistd.h:
+   ```c
+    #ifndef PROTOTYPE_H // change to your header
+    # define PROTOTYPE_H // change to your header
+    # include <stddef.h>
+
+    //prototypes -> dont touch here script will automatically fill this place
+
+    #endif
+   ```
+- **How It Works**:
+    It modifies your Makefile based on your source files. if you add or remove a source file, Makefile will automatically be updated.
+    Not just that! It creates a header file (can modify the name in Makefile, HEADER variable) and place all your functions in header (excluding main and static functions).
 
 - **Building the Project**: Simply run the Makefile to compile the project:
    ```bash
